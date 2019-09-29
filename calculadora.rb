@@ -1,9 +1,10 @@
 require_relative 'operacoes_extras'
 
 module Calculadora
-  include OperacoesExtras
 
   class Operacoes
+    include OperacoesExtras
+
     def fibonacci(n)
     end
 
