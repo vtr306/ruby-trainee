@@ -45,11 +45,11 @@ Ex:
 {"Tomás":10, "Iury":10, "Vini":10}
 ```
 
-`lista_negra` é a lista de alunos que serão desconsiderados
+`lista_negra` é a lista de alunos que serão desconsiderados, separados por espaço.
 Ex:
 
 ```
-Tomás, Iury
+Tomás Iury
 ```
 
 **Dica: use o método** `JSON.parse(notas)` **para transformar a entrada em uma Hash. Use também o método .split pertencente a classe** `String` **para transformar a string em uma array.**
