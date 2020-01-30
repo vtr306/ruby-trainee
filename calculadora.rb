@@ -5,7 +5,8 @@ module Calculadora
   class Operacoes
     include OperacoesExtras
 
-    def fibonacci(n)
+    def media_preconceituosa(notas, lista_negra)
+      
     end
 
     def fatorial(n)
@@ -17,6 +18,10 @@ module Calculadora
   end
 
   class Menu
+  
+    def initialize
+    end
+  
   end
 
 end
