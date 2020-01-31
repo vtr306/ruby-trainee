@@ -1,4 +1,6 @@
 require_relative 'operacoes_extras'
+require 'net/http'
+require 'json'
 
 module Calculadora
 
