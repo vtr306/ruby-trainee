@@ -86,7 +86,7 @@ Para cada número deverá ser exibida uma letra "S" (é divisível) ou "N" (não
 
 #### Filtrar filmes
 
-Você pode estar se perguntando o que isso tem a ver com uma calculadora, *eu realmente não sei.* Acabaram as ideias. Para essa *operação* você irá filtrar uma lista de filmes (Hash) de acordo com seu gênero e ano de lançamento.
+Você pode estar se perguntando o que isso tem a ver com uma calculadora, *eu realmente não sei.* Acabaram as ideias. Para essa operação você irá filtrar uma lista de filmes (Hash) de acordo com seu gênero e ano de lançamento.
 
 ##### Entrada
 
