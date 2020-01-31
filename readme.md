@@ -64,7 +64,7 @@ A média deverá ser exibida na tela
 
 #### Calculadora sem números?
 
-Muita gente diz que não gosta de matemática por causa dos números, porém nós da engenharia sabemos que o terror está nas letras. Logo o desafio é dizer se uma série de números é divisível por 25 ou não, porém **sem usar números ou operações matemáticas**. Os números deverão ser lidos como string. Você também poderá usar strings para representar números. Ex:
+Muita gente diz que não gosta de matemática por causa dos números, porém nós da engenharia sabemos que o terror está nas letras. Logo o desafio é dizer se uma série de números é divisível por 25 ou não, porém **sem usar a classe `Integer` ou realizar operações de divisão, resto, etc.**. Os números deverão ser lidos como string. Você também poderá usar strings para representar números. Ex:
 
 ```ruby
 # permitido

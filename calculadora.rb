@@ -15,9 +15,9 @@ module Calculadora
 
     end
 
-    def filtrar_filme(generos, ano)
+    def filtrar_filmes(generos, ano)
       filmes = get_filmes
-      
+
     end
     
     private
