@@ -29,7 +29,11 @@ Você implementará um menu baseado em texto, que conterá uma opção para cada
 2. Operacao 2
 3. Sair
 
+Sua opção: 
 ```
+
+Ao digitar um número, o usuário deverá entrar com os dados. Após isso o resultado deverá ser exibido na tela e ao apertar enter, o menu deverá ser redesenhado até a opção de sair ser selecionada.
+
 ### Operações
 
 #### Média preconceituosa
@@ -52,4 +56,44 @@ Ex:
 Tomás Iury
 ```
 
+##### Saída
+
+A média deverá ser exibida na tela
+
 **Dica: use o método** `JSON.parse(notas)` **para transformar a entrada em uma Hash. Use também o método .split pertencente a classe** `String` **para transformar a string em uma array.**
+
+#### Calculadora sem números?
+
+Muita gente diz que não gosta de matemática por causa dos números, porém nós da engenharia sabemos que o terror está nas letras. Logo o desafio é dizer se uma série de números é divisível por 25 ou não, porém **sem usar números ou operações matemáticas**. Os números deverão ser lidos como string.
+
+##### Entrada
+
+`numeros`: string contendo vários números separados por espaço
+
+##### Saída
+
+Para cada número deverá ser exibida uma letra "S" (é divisível) ou "N" (não é divisível). Ex:
+
+`S S N S N N S`
+
+#### Filtrar filmes
+
+Você pode estar se perguntando o que isso tem a ver com uma calculadora, *eu realmente não sei.* Acabaram as ideias. Para essa *operação* você irá filtrar uma lista de filmes (Hash) de acordo com seu gênero e ano de lançamento.
+
+##### Entrada
+
+`generos`: array incluindo os gêneros que os resultados tem que ter. Ex:
+
+`["Action", "Fantasy"]`
+
+`ano`: Os filmes terão que ser lançados a partir desse ano para entrar nos resultados
+
+##### Saída
+
+Os nomes dos filmes, separados por uma quebra de linha. Ex:
+
+```
+FilmeA
+FilmeB
+FilmeC
+```
