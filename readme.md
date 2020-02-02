@@ -105,3 +105,7 @@ FilmeA
 FilmeB
 FilmeC
 ```
+
+### Agora é sua vez
+
+Para ilustrar os módulos também como pacotes de funcionalidade quem podem ser incluídos em classes ou outros módulos, crie no módulo `OperacoesExtras` um método, implementando uma operação a sua escolha. Seja Criativo!
