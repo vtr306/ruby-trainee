@@ -1,5 +1,5 @@
-require_relative 'calculadora'
+require_relative 'calculator/menu'
 
 loop do
-  Calculadora::Menu.new
+  Calculator::Menu.new
 end

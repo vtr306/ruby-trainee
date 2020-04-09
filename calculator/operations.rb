@@ -1,41 +1,31 @@
-require_relative 'operacoes_extras'
+require_relative '../extra_operations'
 require 'net/http'
 require 'json'
 
-module Calculadora
-
-  class Operacoes
-    include OperacoesExtras
-
-    def media_preconceituosa(notas, lista_negra)
-
+module Calculator
+  class Operations
+    include ExtraOperations
+  
+    def biased_mean(grades, blacklist)
+    
     end
-
-    def sem_numeros(numeros)
-
+  
+    def no_integers(numbers)
+  
     end
-
-    def filtrar_filmes(generos, ano)
-      filmes = get_filmes
-
+  
+    def filter_films(genres, year)
+      films = get_films
+  
     end
     
     private
-
+  
     def get_filmes
       url = 'https://raw.githubusercontent.com/yegor-sytnyk/movies-list/master/db.json'
       uri = URI(url)
       response = Net::HTTP.get(uri)
       return JSON.parse(response, symbolize_names: true)
     end
-
   end
-
-  class Menu
-  
-    def initialize
-    end
-  
-  end
-
 end
