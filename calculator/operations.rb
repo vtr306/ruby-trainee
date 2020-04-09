@@ -21,7 +21,7 @@ module Calculator
     
     private
   
-    def get_filmes
+    def get_films
       url = 'https://raw.githubusercontent.com/yegor-sytnyk/movies-list/master/db.json'
       uri = URI(url)
       response = Net::HTTP.get(uri)
