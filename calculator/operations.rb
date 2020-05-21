@@ -24,7 +24,6 @@ module Calculator
       end
 
       return (sum/students).to_f
-
     end
   
     def no_integers(numbers)
@@ -41,7 +40,6 @@ module Calculator
       end
 
       return result
-
     end
   
     def filter_films(genres, year)
