@@ -8,7 +8,7 @@ module Calculator
       puts " -------------------------"
       puts ""
       puts "1. Média Preconceituosa"
-      puts "2. Operacao 2"
+      puts "2. Calculadora sem números"
       puts "3. Operacao 3"
       puts "4. Sair"
       puts ""
@@ -27,11 +27,13 @@ module Calculator
 
         puts "A média é: #{operation.biased_mean(grades, blacklist)}"
       when 2
-      
+        print "Insira os números que você quer descobrir se são divisíveis por 25: "
+        numbers = gets.chomp
+        puts "#{operation.no_integers(numbers)}"
       when 3
       
       when 4
-      
+        
       end
     end
   end

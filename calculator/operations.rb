@@ -28,7 +28,20 @@ module Calculator
     end
   
     def no_integers(numbers)
-  
+      
+      numbers = numbers.split
+      prova = ['00', '25', '50', '75']
+      result = ""
+      numbers.each do |index|
+        if prova.include?(index[-2..-1])
+          result += "S "
+        else
+          result += "N "
+        end
+      end
+
+      return result
+      
     end
   
     def filter_films(genres, year)
