@@ -10,7 +10,7 @@ module Calculator
       puts "1. Média Preconceituosa"
       puts "2. Calculadora sem números"
       puts "3. Filtrar Filmes"
-      puts "4. Sair"
+      puts "0. Sair"
       puts ""
       print "Sua opção: "
       
@@ -36,8 +36,8 @@ module Calculator
         print "Insira o ano: "
         year = gets.chomp
         puts operation.filter_films(genres, year)
-      when 4
-        
+      when 0
+        exit
       end
     end
   end
