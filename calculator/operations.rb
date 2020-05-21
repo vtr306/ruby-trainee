@@ -7,7 +7,24 @@ module Calculator
     include ExtraOperations
   
     def biased_mean(grades, blacklist)
-    
+
+      grades = JSON.parse(grades)
+      blacklist = blacklist.split
+
+      blacklist.each do |index|
+        grades.delete(index)
+      end
+
+      sum = 0
+      students = 0
+
+      grades.each do |key, value|
+        sum += grades[key]
+        students += 1
+      end
+
+      return (sum/students).to_f
+
     end
   
     def no_integers(numbers)
