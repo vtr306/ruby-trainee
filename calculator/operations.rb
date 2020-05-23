@@ -45,9 +45,13 @@ module Calculator
     def filter_films(genres, year)
 
       films = get_films[:movies]
-      genres = genres.split(" ")
+      genres = genres.split
       result = []
-
+      
+      genres.map! do |a|
+        a.capitalize
+      end
+      
       films.each do |a|
         if( a[:year] >= year && (genres & a[:genres]) == genres)
           result.push(a[:title])
