@@ -3,9 +3,9 @@ require_relative 'operations'
 module Calculator
   class Menu
     def initialize
-      puts " -------------------------"
-      puts "| Bem vindo a calculadora |"
-      puts " -------------------------"
+      puts " ----------------------------------"
+      puts "| Bem vindo a calculadora do Vitão |"
+      puts " ----------------------------------"
       puts ""
       puts "1. Média Preconceituosa"
       puts "2. Calculadora sem números"
